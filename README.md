@@ -2,7 +2,7 @@
 The four assignments (+1 bonus project) from my time studying CSSE2310 - Computer Systems Principles & Programming.
 
 ## a1 - unjumble
-unjumble is a program that can tell us all the anagrams and shorter words that we can make from a given set of letters. It does this by opening and reading either a given or default dictionary and comparing each word to our set of letters. Additional control is given to the user by sorting output according to length, alphabetical order, or only outputting the longest (or tied longest) words. unjumble is fully functional with no memory leaks. Builds with `make` and tested on AlmaLinux 8.4.
+unjumble is a program that can tell us all the anagrams and shorter words that we can make from a given set of letters. It does this by opening and reading either a given or default dictionary and comparing each word to our set of letters. Additional control is given to the user by sorting output according to length, alphabetical order, or only outputting the longest (or tied longest) words. unjumble is fully functional with no memory leaks or errors. Builds with `make` and tested on AlmaLinux 8.4.
 
 ## a2 - bomb
 The bomb is not a coding assessment task, rather, a debugging and reverse-engineering one. The bomb connects to a pre-set logging database, inaccessible to students (and rendering the bomb unusable outside of the student testing environment). It provides a series of increasingly complex functions to debug and determine the output of in order to "defuse" the bomb, with marks deducted for failed attempts. A writeup of how the challenges were completed is provided.
